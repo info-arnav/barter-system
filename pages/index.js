@@ -2,7 +2,6 @@ import Head from "next/head";
 import { useState } from "react";
 import Login from "../components/login";
 import "bootstrap/dist/css/bootstrap.min.css";
-import "../styles/globals.css";
 
 export default function Home() {
   const [login, setLogin] = useState(false);
@@ -13,6 +12,7 @@ export default function Home() {
         <title>Create Next App</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
+      <title>Barter System</title>
       <nav>
         <button onClick={() => setLogin(!login)}>Login</button>
         <button onClick={() => setRegister(!register)}>Register</button>
