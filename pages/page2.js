@@ -9,17 +9,7 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <nav></nav>
-      <main>
-        <form>
-          <center>
-            <input></input>
-            <br></br>
-            <input></input>
-            <br></br>
-            <button>Register</button>
-          </center>
-        </form>
-      </main>
+      <main>Page2</main>
       <footer></footer>
     </div>
   );
