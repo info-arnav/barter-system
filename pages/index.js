@@ -1,24 +1,97 @@
 import Head from "next/head";
-import styles from "../styles/Home.module.css";
+import { useState } from "react";
+import Login from "../components/login";
+import "bootstrap/dist/css/bootstrap.min.css";
+import "../styles/globals.css";
 
 export default function Home() {
+  const [login, setLogin] = useState(false);
+  const [register, setRegister] = useState(false);
   return (
-    <div className={styles.container}>
+    <div style={{ width: "100%" }}>
       <Head>
         <title>Create Next App</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      <nav></nav>
+      <nav>
+        <button onClick={() => setLogin(!login)}>Login</button>
+        <button onClick={() => setRegister(!register)}>Register</button>
+      </nav>
       <main>
-        <form>
-          <center>
-            <input></input>
-            <br></br>
-            <input></input>
-            <br></br>
-            <button>Register</button>
-          </center>
-        </form>
+        {login == true && (
+          <div
+            role="dialog"
+            aria-modal="true"
+            class="fade modal show"
+            tabindex="-1"
+            aria-labelledby="example-modal-sizes-title-lg"
+            style={{ display: "block" }}
+          >
+            <div class="modal-dialog modal-lg">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <div class="modal-title h4" id="example-modal-sizes-title-lg">
+                    Login
+                  </div>
+                  <button
+                    type="button"
+                    class="btn-close"
+                    aria-label="Close"
+                    onClick={() => setLogin(false)}
+                  ></button>
+                </div>
+                <div class="modal-body">
+                  <Login></Login>
+                  <a
+                    onClick={() => {
+                      setLogin(false);
+                      setRegister(true);
+                    }}
+                  >
+                    Not yet registered ? Register here.
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        )}
+        {register == true && (
+          <div
+            role="dialog"
+            aria-modal="true"
+            class="fade modal show"
+            tabindex="-1"
+            aria-labelledby="example-modal-sizes-title-lg"
+            style={{ display: "block" }}
+          >
+            <div class="modal-dialog modal-lg">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <div class="modal-title h4" id="example-modal-sizes-title-lg">
+                    Register
+                  </div>
+                  <button
+                    type="button"
+                    class="btn-close"
+                    aria-label="Close"
+                    onClick={() => setRegister(false)}
+                  ></button>
+                </div>
+                <div class="modal-body">
+                  <Login></Login>
+                  <a
+                    onClick={() => {
+                      setLogin(true);
+                      setRegister(false);
+                    }}
+                  >
+                    Already Registered ? Login here.
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        )}
       </main>
       <footer></footer>
     </div>
