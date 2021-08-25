@@ -18,7 +18,7 @@ const Modal = () => {
         ></input>
         <br></br>
         <input
-          placeholder="Location"
+          placeholder="Email"
           style={{
             borderRadius: "5px",
             marginBottom: 20,
@@ -28,8 +28,8 @@ const Modal = () => {
           }}
         ></input>
         <br></br>
-        <label htmlFor="usage preference">
-        UsagePreference
+        {/* <label htmlFor="usage preference">
+          UsagePreference
           <select
             id="usage preference"
             value={usagepreference}
@@ -44,7 +44,7 @@ const Modal = () => {
             ))}
           </select>
         </label>
-        <br></br>
+        <br></br> */}
         <input
           placeholder="Username"
           style={{
@@ -58,6 +58,17 @@ const Modal = () => {
         <br></br>
         <input
           placeholder="Password"
+          style={{
+            borderRadius: "5px",
+            marginBottom: 20,
+            width: "20%",
+            minWidth: 200,
+            height: "30px",
+          }}
+        ></input>
+        <br></br>
+        <input
+          placeholder="Confirm Password"
           style={{
             borderRadius: "5px",
             marginBottom: 20,
