@@ -1,0 +1,8 @@
+https://barter-system.vercel.app/
+https://barter-syatem.vercel.app/index
+https://barter-syatem.vercel.app/barter2.jpg
+https://barter-syatem.vercel.app/barter3.jpg
+https://barter-syatem.vercel.app/favicon.ico
+https://barter-syatem.vercel.app/logo.png
+https://barter-syatem.vercel.app/logo.svg
+https://barter-syatem.vercel.app/robots.txt

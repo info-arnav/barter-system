@@ -1,12 +1,28 @@
 import { useState, useEffect, useContext } from "react";
 const USAGEPREFERENCE = ["Buyer", "Seller", "Exchange", "Donate"];
+
 const Modal = () => {
-  const [usagepreference, updateUsagePreference] = useState("");
+  const [username, setUsername] = useState("");
+  const [name, setName] = useState("");
+  const [password, setPassword] = useState("");
+  const [email, setEmail] = useState("");
+  const [confirmPassword, setConfirmPassword] = useState("");
+  const Submit = () => {
+    axios
+      .post({
+        name: name,
+        username: username,
+        password: password,
+        email: email,
+      })
+      .then((e) => {});
+  };
   return (
     <div>
       <form>
-        {" "}
         <input
+          value={name}
+          onChange={(e) => setName(e.target.value)}
           placeholder="Name"
           style={{
             borderRadius: "5px",
@@ -18,6 +34,8 @@ const Modal = () => {
         ></input>
         <br></br>
         <input
+          value={email}
+          onChange={(e) => setEmail(e.target.value)}
           placeholder="Email"
           style={{
             borderRadius: "5px",
@@ -28,24 +46,9 @@ const Modal = () => {
           }}
         ></input>
         <br></br>
-        {/* <label htmlFor="usage preference">
-          UsagePreference
-          <select
-            id="usage preference"
-            value={usagepreference}
-            onChange={(e) => updateUsagePreference(e.target.value)}
-            onBlur={(e) => updateUsagePreference(e.target.value)}
-          >
-            <option />
-            {USAGEPREFERENCE.map((usagepreference) => (
-              <option key={usagepreference} value={usagepreference}>
-                {usagepreference}
-              </option>
-            ))}
-          </select>
-        </label>
-        <br></br> */}
         <input
+          value={username}
+          onChange={(e) => setUsername(e.target.value)}
           placeholder="Username"
           style={{
             borderRadius: "5px",
@@ -57,6 +60,8 @@ const Modal = () => {
         ></input>
         <br></br>
         <input
+          value={password}
+          onChange={(e) => setPassword(e.target.value)}
           placeholder="Password"
           style={{
             borderRadius: "5px",
@@ -68,6 +73,8 @@ const Modal = () => {
         ></input>
         <br></br>
         <input
+          value={confirmPassword}
+          onChange={(e) => setConfirmPassword(e.target.value)}
           placeholder="Confirm Password"
           style={{
             borderRadius: "5px",
@@ -78,7 +85,7 @@ const Modal = () => {
           }}
         ></input>
         <br></br>
-        <button>Login</button>
+        <button onCLick={Submit}>Login</button>
       </form>
     </div>
   );
