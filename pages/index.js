@@ -1,6 +1,7 @@
 import Head from "next/head";
 import { useState } from "react";
 import Login from "../components/login";
+import Register1 from "../components/register";
 import "bootstrap/dist/css/bootstrap.min.css";
 
 export default function Home() {
@@ -78,7 +79,7 @@ export default function Home() {
                   ></button>
                 </div>
                 <div class="modal-body">
-                  <Login></Login>
+                  <Register1></Register1>
                   <a
                     onClick={() => {
                       setLogin(true);
