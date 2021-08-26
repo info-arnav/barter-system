@@ -1,19 +1,15 @@
-import Head from "next/head";
 import { useState } from "react";
 import Login from "../components/login";
 import Register1 from "../components/register";
 import "bootstrap/dist/css/bootstrap.min.css";
+import Head from "../components/head";
 
 export default function Home() {
   const [login, setLogin] = useState(false);
   const [register, setRegister] = useState(false);
   return (
     <div style={{ width: "100%" }}>
-      <Head>
-        <title>Create Next App</title>
-        <link rel="icon" href="/favicon.ico" />
-      </Head>
-      <title>Barter System</title>
+      <Head></Head>
       <nav>
         <button onClick={() => setLogin(!login)}>Login</button>
         <button onClick={() => setRegister(!register)}>Register</button>
@@ -44,6 +40,7 @@ export default function Home() {
                 <div class="modal-body">
                   <Login></Login>
                   <a
+                    className="hover"
                     onClick={() => {
                       setLogin(false);
                       setRegister(true);
@@ -81,6 +78,7 @@ export default function Home() {
                 <div class="modal-body">
                   <Register1></Register1>
                   <a
+                    className="hover"
                     onClick={() => {
                       setLogin(true);
                       setRegister(false);
