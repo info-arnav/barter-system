@@ -1,3 +1,4 @@
+import axios from "axios";
 import { useState } from "react";
 
 const Modal = () => {
@@ -42,7 +43,7 @@ const Modal = () => {
           }}
         ></input>
         <br></br>
-        <button onClick={Submit}>Register</button>
+        <button onClick={Submit}>Login</button>
       </form>
     </div>
   );

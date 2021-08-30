@@ -1,8 +1,10 @@
 import { useState } from "react";
-import Login from "../components/login";
-import Register1 from "../components/register";
+import Login from "../components/register";
+import Register1 from "../components/login";
 import "bootstrap/dist/css/bootstrap.min.css";
 import Head from "../components/head";
+import Navigation from "../components/navigation/nav";
+import Footer from "../components/footer/footer";
 
 export default function Home() {
   const [login, setLogin] = useState(false);
@@ -10,89 +12,9 @@ export default function Home() {
   return (
     <div style={{ width: "100%" }}>
       <Head></Head>
-      <nav>
-        <button onClick={() => setLogin(!login)}>Login</button>
-        <button onClick={() => setRegister(!register)}>Register</button>
-      </nav>
-      <main>
-        {login == true && (
-          <div
-            role="dialog"
-            aria-modal="true"
-            class="fade modal show"
-            tabindex="-1"
-            aria-labelledby="example-modal-sizes-title-lg"
-            style={{ display: "block" }}
-          >
-            <div class="modal-dialog modal-lg">
-              <div class="modal-content">
-                <div class="modal-header">
-                  <div class="modal-title h4" id="example-modal-sizes-title-lg">
-                    Login
-                  </div>
-                  <button
-                    type="button"
-                    class="btn-close"
-                    aria-label="Close"
-                    onClick={() => setLogin(false)}
-                  ></button>
-                </div>
-                <div class="modal-body">
-                  <Login></Login>
-                  <a
-                    className="hover"
-                    onClick={() => {
-                      setLogin(false);
-                      setRegister(true);
-                    }}
-                  >
-                    Not yet registered ? Register here.
-                  </a>
-                </div>
-              </div>
-            </div>
-          </div>
-        )}
-        {register == true && (
-          <div
-            role="dialog"
-            aria-modal="true"
-            class="fade modal show"
-            tabindex="-1"
-            aria-labelledby="example-modal-sizes-title-lg"
-            style={{ display: "block" }}
-          >
-            <div class="modal-dialog modal-lg">
-              <div class="modal-content">
-                <div class="modal-header">
-                  <div class="modal-title h4" id="example-modal-sizes-title-lg">
-                    Register
-                  </div>
-                  <button
-                    type="button"
-                    class="btn-close"
-                    aria-label="Close"
-                    onClick={() => setRegister(false)}
-                  ></button>
-                </div>
-                <div class="modal-body">
-                  <Register1></Register1>
-                  <a
-                    className="hover"
-                    onClick={() => {
-                      setLogin(true);
-                      setRegister(false);
-                    }}
-                  >
-                    Already Registered ? Login here.
-                  </a>
-                </div>
-              </div>
-            </div>
-          </div>
-        )}
-      </main>
-      <footer></footer>
+      <Navigation></Navigation>
+      <main></main>
+      <Footer></Footer>
     </div>
   );
 }
