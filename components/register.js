@@ -7,19 +7,35 @@ const Modal = () => {
   const [password, setPassword] = useState("");
   const [email, setEmail] = useState("");
   const [confirmPassword, setConfirmPassword] = useState("");
+  const [error, setError] = useState(false);
   const Submit = () => {
     axios
-      .post({
-        name: name,
-        username: username,
-        password: password,
-        email: email,
-      })
-      .then((e) => {});
+      .post(
+        {
+          name: name,
+          username: username,
+          password: password,
+          email: email,
+        },
+        "/api/register"
+      )
+      .then((e) => {
+        if (e.json() == "error") {
+          setError(true);
+        } else {
+          location.replace("/");
+        }
+      });
   };
   return (
     <div>
       <form>
+        {" "}
+        {error && (
+          <div style={{ color: "red" }}>
+            Username exists or some error occured
+          </div>
+        )}
         <input
           value={name}
           onChange={(e) => setName(e.target.value)}

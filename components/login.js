@@ -4,19 +4,32 @@ import { useState } from "react";
 const Modal = () => {
   const [username, setUsername] = useState("");
   const [password, setPassword] = useState("");
+  const [error, setError] = useState(false);
   const Submit = () => {
     axios
-      .post({
-        name: name,
-        username: username,
-        password: password,
-        email: email,
-      })
-      .then((e) => {});
+      .post(
+        {
+          name: name,
+          username: username,
+          password: password,
+          email: email,
+        },
+        "/api/login"
+      )
+      .then((e) => {
+        if (e.json() == "error") {
+          setError(true);
+        } else {
+          location.replace("/");
+        }
+      });
   };
   return (
     <div>
       <form>
+        {error && (
+          <div style={{ color: "red" }}>Invalid username or password</div>
+        )}
         <input
           value={username}
           onChange={(e) => setUsername(e.target.value)}
