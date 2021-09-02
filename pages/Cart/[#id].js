@@ -7,9 +7,6 @@ export default function Cart() {
   return (
     <div style={{ width: "100%" }}>
       <Head></Head>
-      <Navigation></Navigation>
-      <main></main>
-      <Footer></Footer>
     </div>
   );
 }
