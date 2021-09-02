@@ -3570,16 +3570,28 @@ a:hover {
   display: none;
 }
 
-
 html {
   font-family: "Abel", sans-serif;
-  color: #FFF;
-  background: -webkit-linear-gradient(left, #999 , #222); /* For Safari 5.1 to 6.0 */
-  background: -o-linear-gradient(right, #999, #222); /* For Opera 11.1 to 12.0 */
-  background: -moz-linear-gradient(right, #999, #222); /* For Firefox 3.6 to 15 */
-  background: linear-gradient(to right, #999 , #222); /* Standard syntax */
+  color: #fff;
 }
-
+main {
+  background: -webkit-linear-gradient(
+    left,
+    #999,
+    #222
+  ); /* For Safari 5.1 to 6.0 */
+  background: -o-linear-gradient(
+    right,
+    #999,
+    #222
+  ); /* For Opera 11.1 to 12.0 */
+  background: -moz-linear-gradient(
+    right,
+    #999,
+    #222
+  ); /* For Firefox 3.6 to 15 */
+  background: linear-gradient(to right, #999, #222); /* Standard syntax */
+}
 #wrapper {
   height: 100vh;
 }
@@ -3604,9 +3616,9 @@ html {
   position: fixed;
   top: 70%;
   left: 50%;
-  background: rgba(99, 99, 99, .9);
+  background: rgba(99, 99, 99, 0.9);
   /*    box-shadow: 10px 10px 50px 20px #722f37;*/
-  
+
   width: 90%;
   max-width: 400px;
   padding: 40px;
@@ -3615,14 +3627,13 @@ html {
   visibility: hidden;
   transition: all 1s;
   z-index: 99;
-  box-shadow: 20px 20px 0 -5px rgba(68, 68, 68, .9);
+  box-shadow: 20px 20px 0 -5px rgba(68, 68, 68, 0.9);
   -ms-transform: translate(-50%, -50%);
   -webkit-transform: translate(-50%, -50%);
   -moz-transform: translate(-50%, -50%);
   -o-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%);
 }
-
 
 #info button:hover {
   color: #999;
@@ -3642,7 +3653,7 @@ input[type="radio"] {
 }
 
 input[type="radio"][id="open"]:checked ~ #overlay {
-  opacity: .8;
+  opacity: 0.8;
   z-index: 98;
 }
 
@@ -3660,11 +3671,11 @@ input[type="radio"][id="open"]:checked ~ #info {
 }
 
 label {
-  color: #FFF;
+  color: #fff;
 }
 
 label:hover {
-  Color: #999;
+  color: #999;
   cursor: pointer;
 }
 
@@ -3683,19 +3694,18 @@ label:hover {
   font-size: 2em;
   color: #999;
   cursor: pointer;
-  -o-transition: .5s;
-  -ms-transition: .5s;
-  -moz-transition: .5s;
-  -webkit-transition: .5s;
-  transition: .5s;
+  -o-transition: 0.5s;
+  -ms-transition: 0.5s;
+  -moz-transition: 0.5s;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
 }
 
 #button:hover {
   color: #9df;
 }
 
-
-@import url('https://fonts.googleapis.com/css?family=Muli');
+@import url("https://fonts.googleapis.com/css?family=Muli");
 
 /*reset*/
 * {
@@ -3894,8 +3904,8 @@ ul li {
 .card {
   display: flex;
   align-items: center;
-  background: #252831 url(https://www.dropbox.com/s/fuadz3vmw2nsylm/bg.png?raw=1)
-    no-repeat;
+  background: #252831
+    url(https://www.dropbox.com/s/fuadz3vmw2nsylm/bg.png?raw=1) no-repeat;
   height: 600px;
   width: 800px;
   margin: 0 auto;
