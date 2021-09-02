@@ -1,10 +1,8 @@
-import { connectToDatabase } from "../../util/mongodb";
 export default async (req, res) => {
   let data = {
     username: req.body.username,
     password: req.body.password,
   };
-  const { db } = await connectToDatabase();
   const movies = await db
     .collection("movies")
     .find({})
