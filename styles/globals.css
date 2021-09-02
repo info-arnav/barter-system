@@ -1661,7 +1661,7 @@ button.unselected > span {
     animation-timing-function: ease-out;
   }
 
-  49.t_j {
+  49%{ 
     clip: rect(0, 1em, 1em, 0.5em);
     -webkit-animation-timing-function: linear;
     animation-timing-function: linear;
@@ -1687,7 +1687,7 @@ button.unselected > span {
     animation-timing-function: ease-out;
   }
 
-  49.t_j {
+  49%{
     clip: rect(0, 1em, 1em, 0.5em);
     -webkit-animation-timing-function: linear;
     animation-timing-function: linear;
@@ -1713,7 +1713,7 @@ button.unselected > span {
     animation-timing-function: ease-out;
   }
 
-  49.t_j {
+  49%{
     clip: rect(0, 0, 0, 0);
     -webkit-animation-timing-function: linear;
     animation-timing-function: linear;
@@ -1739,7 +1739,7 @@ button.unselected > span {
     animation-timing-function: ease-out;
   }
 
-  49.t_j {
+  49%{
     clip: rect(0, 0, 0, 0);
     -webkit-animation-timing-function: linear;
     animation-timing-function: linear;
