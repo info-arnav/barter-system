@@ -1,0 +1,27 @@
+{
+  "short_name": "Swap",
+  "name": "Exchange your products",
+  "icons": [
+    {
+      "src": "/logo.png",
+      "type": "image/png",
+      "sizes": "500x500",
+      "purpose": "maskable"
+    }
+  ],
+  "start_url": "/",
+  "background_color": "#3367D6",
+  "display": "standalone",
+  "scope": "/",
+  "theme_color": "#3367D6",
+  "shortcuts": [
+    {
+      "name": "Any thing you wanna exchange ?",
+      "short_name": "Add Items",
+      "description": "Put your item for exchange here.",
+      "url": "/dashboard",
+      "icons": [{ "src": "/logo.png", "sizes": "500x500" }]
+    }
+  ],
+  "description": "Exchange your items anytime, wnywhere"
+}
