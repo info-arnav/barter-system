@@ -2,7 +2,6 @@ import { useState } from "react";
 import Login from "../components/register";
 import Register1 from "../components/login";
 import clientPromise from "../lib/mongodb";
-import { connectToDatabase } from "../util/mongodb";
 import "bootstrap/dist/css/bootstrap.min.css";
 import Head from "../components/head";
 import Navigation from "../components/navigation/nav";
