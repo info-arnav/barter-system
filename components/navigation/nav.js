@@ -62,7 +62,7 @@ export default () => {
               data-uid="header-walmart-logo-link"
               data-index="LHN open/close spark click"
             >
-              <img></img>
+              <img src="/transparent.png" width={47}></img>
             </a>
             <div class="b_a a3_e b_g b_p" hidden="true">
               <div class="t_a t_h t_e">
@@ -98,6 +98,7 @@ export default () => {
                   class="r_a r_w bo_g"
                   id="global-search-category-label"
                 ></span>
+
                 <img
                   onClick={() => {
                     setShow2(!show2);
@@ -106,6 +107,7 @@ export default () => {
                   aria-hidden="true"
                   width="18"
                   height="18"
+                  src="/down_arrow-removebg-preview.png"
                 />
                 <div class="r_a r_ag"></div>
               </span>
@@ -451,7 +453,13 @@ export default () => {
               id="global-search-submit"
             >
               <span class="g_b">
-                <img alt="null" aria-hidden="true" width="18" height="18" />
+                <img
+                  src="/search-removebg-preview.png"
+                  alt=""
+                  aria-hidden="true"
+                  width="18"
+                  height="18"
+                />
               </span>
             </button>
             <button class="l_a bo_h mweb-Typeahead-cancel l_b" type="button">
@@ -482,7 +490,8 @@ export default () => {
                   <span class="b_a b_r">
                     <span class="b_a hf-bubble-button-icon-slide b_g b_b b_p">
                       <img
-                        alt="null"
+                        src="/account.png"
+                        alt=""
                         aria-hidden="true"
                         width="24"
                         height="24"
@@ -505,13 +514,14 @@ export default () => {
                   <span class="b_a b_r">
                     <span class="b_a hf-bubble-button-icon-slide b_g b_b b_p">
                       <img
+                        src="/bag-removebg-preview.png"
                         alt="null"
                         aria-hidden="true"
                         width="24"
                         height="24"
                       />
                     </span>
-                    <span class="b_a ae_b b_g b_b b_p z_a z_h z_i">My</span>
+                    <span class="b_a ae_b b_g b_b b_p z_a z_h z_i">My Bag</span>
                   </span>
                 </span>
               </a>
@@ -528,13 +538,14 @@ export default () => {
                   <span class="b_a b_r">
                     <span class="b_a hf-bubble-button-icon-slide b_g b_b b_p">
                       <img
+                        src="/cart-removebg-preview.png"
                         alt="null"
                         aria-hidden="true"
                         width="24"
                         height="24"
                       />
                     </span>
-                    <span class="b_a ae_b b_g b_b b_p z_a z_h z_i"></span>
+                    <span class="b_a ae_b b_g b_b b_p z_a z_h z_i">Cart</span>
                   </span>
                 </span>
               </a>
