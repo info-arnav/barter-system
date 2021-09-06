@@ -1,0 +1,26 @@
+{
+    "sourceFile": "pages/Contact-Us.js",
+    "activeCommit": 0,
+    "commits": [
+        {
+            "activePatchIndex": 2,
+            "patches": [
+                {
+                    "date": 1630932529206,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n"
+                },
+                {
+                    "date": 1630932593561,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,15 +1,12 @@\n-export default function (){\n-  return<><div class=\"blur\"></div><div class=\"content\">\n-    <h1 class=\"title\">GET IN TOUCH</h1>\n-    <div class=\"contact-info\">\n-      <ul>\n-        <li><div class=\"circle\"><i class=\"fas fa-home\"></i></div> Tokyo, Japan</li>\n-        <li><div class=\"circle\"><i class=\"fas fa-phone\"></i></div> +0 000 0000000</li>\n-        <li><div class=\"circle\"><i class=\"fas fa-envelope\"></i></div> name@address.com</li>\n-        <li><div class=\"circle\"><i class=\"fas fa-clock\"></i></div> Mon - Fri 8:00 AM to 4:00 PM</li>\n-      </ul>\n-      <div class=\"contact-section\">\n-        <input type=\"text\" placeholder=\"Name\"></input>\n-      </div>\n-    </div></div></>;\n+import Head from \"next/head\";\n+import { useState } from \"react\";\n+\n+export default function ContactUs() {\n+  const [login, setLogin] = useState(false);\n+  const [register, setRegister] = useState(false);\n+  return (\n+    <div style={{ width: \"100%\" }}>\n+      <Head></Head>\n+    </div>\n+  );\n }\n"
+                },
+                {
+                    "date": 1630932625336,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,12 +1,15 @@\n-import Head from \"next/head\";\n-import { useState } from \"react\";\n-\n-export default function ContactUs() {\n-  const [login, setLogin] = useState(false);\n-  const [register, setRegister] = useState(false);\n-  return (\n-    <div style={{ width: \"100%\" }}>\n-      <Head></Head>\n-    </div>\n-  );\n+export default function (){\n+  return<><div class=\"blur\"></div><div class=\"content\">\n+    <h1 class=\"title\">GET IN TOUCH</h1>\n+    <div class=\"contact-info\">\n+      <ul>\n+        <li><div class=\"circle\"><i class=\"fas fa-home\"></i></div> Tokyo, Japan</li>\n+        <li><div class=\"circle\"><i class=\"fas fa-phone\"></i></div> +0 000 0000000</li>\n+        <li><div class=\"circle\"><i class=\"fas fa-envelope\"></i></div> name@address.com</li>\n+        <li><div class=\"circle\"><i class=\"fas fa-clock\"></i></div> Mon - Fri 8:00 AM to 4:00 PM</li>\n+      </ul>\n+      <div class=\"contact-section\">\n+        <input type=\"text\" placeholder=\"Name\"></input>\n+      </div>\n+    </div></div></>;\n }\n"
+                }
+            ],
+            "date": 1630932529206,
+            "name": "Commit-0",
+            "content": "export default function (){\n  return<><div class=\"blur\"></div><div class=\"content\">\n    <h1 class=\"title\">GET IN TOUCH</h1>\n    <div class=\"contact-info\">\n      <ul>\n        <li><div class=\"circle\"><i class=\"fas fa-home\"></i></div> Tokyo, Japan</li>\n        <li><div class=\"circle\"><i class=\"fas fa-phone\"></i></div> +0 000 0000000</li>\n        <li><div class=\"circle\"><i class=\"fas fa-envelope\"></i></div> name@address.com</li>\n        <li><div class=\"circle\"><i class=\"fas fa-clock\"></i></div> Mon - Fri 8:00 AM to 4:00 PM</li>\n      </ul>\n      <div class=\"contact-section\">\n        <input type=\"text\" placeholder=\"Name\"></input>\n      </div>\n    </div></div></>;\n}\n"
+        }
+    ]
+}
