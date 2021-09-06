@@ -3,6 +3,7 @@ import Register1 from "../register";
 import Login from "../login";
 export default () => {
   const [show, setShow] = useState(false);
+  const [show2, setShow2] = useState(false);
   const [login, setLogin] = useState(false);
   const [register, setRegister] = useState(false);
   return (
@@ -97,287 +98,295 @@ export default () => {
                   class="r_a r_w bo_g"
                   id="global-search-category-label"
                 ></span>
-                <img alt="null" aria-hidden="true" width="18" height="18" />
+                <img
+                  onClick={() => {
+                    setShow2(!show2);
+                  }}
+                  alt="null"
+                  aria-hidden="true"
+                  width="18"
+                  height="18"
+                />
                 <div class="r_a r_ag"></div>
               </span>
             </button>
-            <div
-              class="r_a r_aq r_x r_ah r_az r_o r_f bm_a"
-              id="searchDropdown-list"
-              tabindex="-1"
-              hidden="true"
-            >
-              <div id="search-category-bg" class="bm_b"></div>
-              <div class="r_a r_o bm_e">Search in ...</div>
-              <div class="b_a bm_f b_t">
-                <div class="r_a r_af b_a bm_f b_i b_f b_r b_c" role="menu">
-                  <button
-                    class="g_a r_a r_aw r_l r_b bm_c"
-                    type="button"
-                    data-catid="0"
-                    role="menuitem"
-                  >
-                    <span class="g_b">
-                      <span class="b_a bm_c b_r">All Departments</span>
-                    </span>
-                  </button>
-                  <button
-                    class="g_a r_a r_aw r_l r_b bm_c"
-                    type="button"
-                    data-catid="91083"
-                    role="menuitem"
-                  >
-                    <span class="g_b">
-                      <span class="b_a bm_c b_r">Auto &amp; Tire</span>
-                    </span>
-                  </button>
-                  <button
-                    class="g_a r_a r_aw r_l r_b bm_c"
-                    type="button"
-                    data-catid="5427"
-                    role="menuitem"
-                  >
-                    <span class="g_b">
-                      <span class="b_a bm_c b_r">Baby</span>
-                    </span>
-                  </button>
-                  <button
-                    class="g_a r_a r_aw r_l r_b bm_c"
-                    type="button"
-                    data-catid="1085666"
-                    role="menuitem"
-                  >
-                    <span class="g_b">
-                      <span class="b_a bm_c b_r">Beauty</span>
-                    </span>
-                  </button>
-                  <button
-                    class="g_a r_a r_aw r_l r_b bm_c"
-                    type="button"
-                    data-catid="3920"
-                    role="menuitem"
-                  >
-                    <span class="g_b">
-                      <span class="b_a bm_c b_r">Books</span>
-                    </span>
-                  </button>
-                  <button
-                    class="g_a r_a r_aw r_l r_b bm_c"
-                    type="button"
-                    data-catid="1105910"
-                    role="menuitem"
-                  >
-                    <span class="g_b">
-                      <span class="b_a bm_c b_r">Cell Phones</span>
-                    </span>
-                  </button>
-                  <button
-                    class="g_a r_a r_aw r_l r_b bm_c"
-                    type="button"
-                    data-catid="5438"
-                    role="menuitem"
-                  >
-                    <span class="g_b">
-                      <span class="b_a bm_c b_r">Clothing</span>
-                    </span>
-                  </button>
-                  <button
-                    class="g_a r_a r_aw r_l r_b bm_c"
-                    type="button"
-                    data-catid="3944"
-                    role="menuitem"
-                  >
-                    <span class="g_b">
-                      <span class="b_a bm_c b_r">Electronics</span>
-                    </span>
-                  </button>
-                  <button
-                    class="g_a r_a r_aw r_l r_b bm_c"
-                    type="button"
-                    data-catid="976759"
-                    role="menuitem"
-                  >
-                    <span class="g_b">
-                      <span class="b_a bm_c b_r">Food</span>
-                    </span>
-                  </button>
-                </div>
-                <div class="r_a r_af b_a bm_f b_i b_f b_r b_c" role="menu">
-                  <button
-                    class="g_a r_a r_aw r_l r_b bm_c"
-                    type="button"
-                    data-catid="1094765"
-                    role="menuitem"
-                  >
-                    <span class="g_b">
-                      <span class="b_a bm_c b_r">Gifts &amp; Registry</span>
-                    </span>
-                  </button>
-                  <button
-                    class="g_a r_a r_aw r_l r_b bm_c"
-                    type="button"
-                    data-catid="976760"
-                    role="menuitem"
-                  >
-                    <span class="g_b">
-                      <span class="b_a bm_c b_r">Health</span>
-                    </span>
-                  </button>
-                  <button
-                    class="g_a r_a r_aw r_l r_b bm_c"
-                    type="button"
-                    data-catid="4044"
-                    role="menuitem"
-                  >
-                    <span class="g_b">
-                      <span class="b_a bm_c b_r">Home</span>
-                    </span>
-                  </button>
-                  <button
-                    class="g_a r_a r_aw r_l r_b bm_c"
-                    type="button"
-                    data-catid="1072864"
-                    role="menuitem"
-                  >
-                    <span class="g_b">
-                      <span class="b_a bm_c b_r">Home Improvement</span>
-                    </span>
-                  </button>
-                  <button
-                    class="g_a r_a r_aw r_l r_b bm_c"
-                    type="button"
-                    data-catid="1115193"
-                    role="menuitem"
-                  >
-                    <span class="g_b">
-                      <span class="b_a bm_c b_r">Household Essentials</span>
-                    </span>
-                  </button>
-                  <button
-                    class="g_a r_a r_aw r_l r_b bm_c"
-                    type="button"
-                    data-catid="3891"
-                    role="menuitem"
-                  >
-                    <span class="g_b">
-                      <span class="b_a bm_c b_r">Jewelry</span>
-                    </span>
-                  </button>
-                  <button
-                    class="g_a r_a r_aw r_l r_b bm_c"
-                    type="button"
-                    data-catid="4096"
-                    role="menuitem"
-                  >
-                    <span class="g_b">
-                      <span class="b_a bm_c b_r">Movies</span>
-                    </span>
-                  </button>
-                  <button
-                    class="g_a r_a r_aw r_l r_b bm_c"
-                    type="button"
-                    data-catid="4104"
-                    role="menuitem"
-                  >
-                    <span class="g_b">
-                      <span class="b_a bm_c b_r">Music</span>
-                    </span>
-                  </button>
-                  <button
-                    class="g_a r_a r_aw r_l r_b bm_c"
-                    type="button"
-                    data-catid="1229749"
-                    role="menuitem"
-                  >
-                    <span class="g_b">
-                      <span class="b_a bm_c b_r">Office</span>
-                    </span>
-                  </button>
-                </div>
-                <div class="r_a r_af b_a bm_f b_i b_f b_r b_c" role="menu">
-                  <button
-                    class="g_a r_a r_aw r_l r_b bm_c"
-                    type="button"
-                    data-catid="2637"
-                    role="menuitem"
-                  >
-                    <span class="g_b">
-                      <span class="b_a bm_c b_r">Party &amp; Occasions</span>
-                    </span>
-                  </button>
-                  <button
-                    class="g_a r_a r_aw r_l r_b bm_c"
-                    type="button"
-                    data-catid="5428"
-                    role="menuitem"
-                  >
-                    <span class="g_b">
-                      <span class="b_a bm_c b_r">Patio &amp; Garden</span>
-                    </span>
-                  </button>
-                  <button
-                    class="g_a r_a r_aw r_l r_b bm_c"
-                    type="button"
-                    data-catid="5440"
-                    role="menuitem"
-                  >
-                    <span class="g_b">
-                      <span class="b_a bm_c b_r">Pets</span>
-                    </span>
-                  </button>
-                  <button
-                    class="g_a r_a r_aw r_l r_b bm_c"
-                    type="button"
-                    data-catid="5431"
-                    role="menuitem"
-                  >
-                    <span class="g_b">
-                      <span class="b_a bm_c b_r">Pharmacy</span>
-                    </span>
-                  </button>
-                  <button
-                    class="g_a r_a r_aw r_l r_b bm_c"
-                    type="button"
-                    data-catid="5426"
-                    role="menuitem"
-                  >
-                    <span class="g_b">
-                      <span class="b_a bm_c b_r">Photo Center</span>
-                    </span>
-                  </button>
-                  <button
-                    class="g_a r_a r_aw r_l r_b bm_c"
-                    type="button"
-                    data-catid="4125"
-                    role="menuitem"
-                  >
-                    <span class="g_b">
-                      <span class="b_a bm_c b_r">Sports &amp; Outdoors</span>
-                    </span>
-                  </button>
-                  <button
-                    class="g_a r_a r_aw r_l r_b bm_c"
-                    type="button"
-                    data-catid="4171"
-                    role="menuitem"
-                  >
-                    <span class="g_b">
-                      <span class="b_a bm_c b_r">Toys</span>
-                    </span>
-                  </button>
-                  <button
-                    class="g_a r_a r_aw r_l r_b bm_c"
-                    type="button"
-                    data-catid="2636"
-                    role="menuitem"
-                  >
-                    <span class="g_b">
-                      <span class="b_a bm_c b_r">Video Games</span>
-                    </span>
-                  </button>
+            {show2 && (
+              <div
+                class="r_a r_aq r_x r_ah r_az r_o r_f bm_a"
+                id="searchDropdown-list"
+              >
+                <div id="search-category-bg" class="bm_b"></div>
+                <div class="r_a r_o bm_e">Search in ...</div>
+                <div class="b_a bm_f b_t">
+                  <div class="r_a r_af b_a bm_f b_i b_f b_r b_c" role="menu">
+                    <button
+                      class="g_a r_a r_aw r_l r_b bm_c"
+                      type="button"
+                      data-catid="0"
+                      role="menuitem"
+                    >
+                      <span class="g_b">
+                        <span class="b_a bm_c b_r">All Departments</span>
+                      </span>
+                    </button>
+                    <button
+                      class="g_a r_a r_aw r_l r_b bm_c"
+                      type="button"
+                      data-catid="91083"
+                      role="menuitem"
+                    >
+                      <span class="g_b">
+                        <span class="b_a bm_c b_r">Auto &amp; Tire</span>
+                      </span>
+                    </button>
+                    <button
+                      class="g_a r_a r_aw r_l r_b bm_c"
+                      type="button"
+                      data-catid="5427"
+                      role="menuitem"
+                    >
+                      <span class="g_b">
+                        <span class="b_a bm_c b_r">Baby</span>
+                      </span>
+                    </button>
+                    <button
+                      class="g_a r_a r_aw r_l r_b bm_c"
+                      type="button"
+                      data-catid="1085666"
+                      role="menuitem"
+                    >
+                      <span class="g_b">
+                        <span class="b_a bm_c b_r">Beauty</span>
+                      </span>
+                    </button>
+                    <button
+                      class="g_a r_a r_aw r_l r_b bm_c"
+                      type="button"
+                      data-catid="3920"
+                      role="menuitem"
+                    >
+                      <span class="g_b">
+                        <span class="b_a bm_c b_r">Books</span>
+                      </span>
+                    </button>
+                    <button
+                      class="g_a r_a r_aw r_l r_b bm_c"
+                      type="button"
+                      data-catid="1105910"
+                      role="menuitem"
+                    >
+                      <span class="g_b">
+                        <span class="b_a bm_c b_r">Cell Phones</span>
+                      </span>
+                    </button>
+                    <button
+                      class="g_a r_a r_aw r_l r_b bm_c"
+                      type="button"
+                      data-catid="5438"
+                      role="menuitem"
+                    >
+                      <span class="g_b">
+                        <span class="b_a bm_c b_r">Clothing</span>
+                      </span>
+                    </button>
+                    <button
+                      class="g_a r_a r_aw r_l r_b bm_c"
+                      type="button"
+                      data-catid="3944"
+                      role="menuitem"
+                    >
+                      <span class="g_b">
+                        <span class="b_a bm_c b_r">Electronics</span>
+                      </span>
+                    </button>
+                    <button
+                      class="g_a r_a r_aw r_l r_b bm_c"
+                      type="button"
+                      data-catid="976759"
+                      role="menuitem"
+                    >
+                      <span class="g_b">
+                        <span class="b_a bm_c b_r">Food</span>
+                      </span>
+                    </button>
+                  </div>
+                  <div class="r_a r_af b_a bm_f b_i b_f b_r b_c" role="menu">
+                    <button
+                      class="g_a r_a r_aw r_l r_b bm_c"
+                      type="button"
+                      data-catid="1094765"
+                      role="menuitem"
+                    >
+                      <span class="g_b">
+                        <span class="b_a bm_c b_r">Gifts &amp; Registry</span>
+                      </span>
+                    </button>
+                    <button
+                      class="g_a r_a r_aw r_l r_b bm_c"
+                      type="button"
+                      data-catid="976760"
+                      role="menuitem"
+                    >
+                      <span class="g_b">
+                        <span class="b_a bm_c b_r">Health</span>
+                      </span>
+                    </button>
+                    <button
+                      class="g_a r_a r_aw r_l r_b bm_c"
+                      type="button"
+                      data-catid="4044"
+                      role="menuitem"
+                    >
+                      <span class="g_b">
+                        <span class="b_a bm_c b_r">Home</span>
+                      </span>
+                    </button>
+                    <button
+                      class="g_a r_a r_aw r_l r_b bm_c"
+                      type="button"
+                      data-catid="1072864"
+                      role="menuitem"
+                    >
+                      <span class="g_b">
+                        <span class="b_a bm_c b_r">Home Improvement</span>
+                      </span>
+                    </button>
+                    <button
+                      class="g_a r_a r_aw r_l r_b bm_c"
+                      type="button"
+                      data-catid="1115193"
+                      role="menuitem"
+                    >
+                      <span class="g_b">
+                        <span class="b_a bm_c b_r">Household Essentials</span>
+                      </span>
+                    </button>
+                    <button
+                      class="g_a r_a r_aw r_l r_b bm_c"
+                      type="button"
+                      data-catid="3891"
+                      role="menuitem"
+                    >
+                      <span class="g_b">
+                        <span class="b_a bm_c b_r">Jewelry</span>
+                      </span>
+                    </button>
+                    <button
+                      class="g_a r_a r_aw r_l r_b bm_c"
+                      type="button"
+                      data-catid="4096"
+                      role="menuitem"
+                    >
+                      <span class="g_b">
+                        <span class="b_a bm_c b_r">Movies</span>
+                      </span>
+                    </button>
+                    <button
+                      class="g_a r_a r_aw r_l r_b bm_c"
+                      type="button"
+                      data-catid="4104"
+                      role="menuitem"
+                    >
+                      <span class="g_b">
+                        <span class="b_a bm_c b_r">Music</span>
+                      </span>
+                    </button>
+                    <button
+                      class="g_a r_a r_aw r_l r_b bm_c"
+                      type="button"
+                      data-catid="1229749"
+                      role="menuitem"
+                    >
+                      <span class="g_b">
+                        <span class="b_a bm_c b_r">Office</span>
+                      </span>
+                    </button>
+                  </div>
+                  <div class="r_a r_af b_a bm_f b_i b_f b_r b_c" role="menu">
+                    <button
+                      class="g_a r_a r_aw r_l r_b bm_c"
+                      type="button"
+                      data-catid="2637"
+                      role="menuitem"
+                    >
+                      <span class="g_b">
+                        <span class="b_a bm_c b_r">Party &amp; Occasions</span>
+                      </span>
+                    </button>
+                    <button
+                      class="g_a r_a r_aw r_l r_b bm_c"
+                      type="button"
+                      data-catid="5428"
+                      role="menuitem"
+                    >
+                      <span class="g_b">
+                        <span class="b_a bm_c b_r">Patio &amp; Garden</span>
+                      </span>
+                    </button>
+                    <button
+                      class="g_a r_a r_aw r_l r_b bm_c"
+                      type="button"
+                      data-catid="5440"
+                      role="menuitem"
+                    >
+                      <span class="g_b">
+                        <span class="b_a bm_c b_r">Pets</span>
+                      </span>
+                    </button>
+                    <button
+                      class="g_a r_a r_aw r_l r_b bm_c"
+                      type="button"
+                      data-catid="5431"
+                      role="menuitem"
+                    >
+                      <span class="g_b">
+                        <span class="b_a bm_c b_r">Pharmacy</span>
+                      </span>
+                    </button>
+                    <button
+                      class="g_a r_a r_aw r_l r_b bm_c"
+                      type="button"
+                      data-catid="5426"
+                      role="menuitem"
+                    >
+                      <span class="g_b">
+                        <span class="b_a bm_c b_r">Photo Center</span>
+                      </span>
+                    </button>
+                    <button
+                      class="g_a r_a r_aw r_l r_b bm_c"
+                      type="button"
+                      data-catid="4125"
+                      role="menuitem"
+                    >
+                      <span class="g_b">
+                        <span class="b_a bm_c b_r">Sports &amp; Outdoors</span>
+                      </span>
+                    </button>
+                    <button
+                      class="g_a r_a r_aw r_l r_b bm_c"
+                      type="button"
+                      data-catid="4171"
+                      role="menuitem"
+                    >
+                      <span class="g_b">
+                        <span class="b_a bm_c b_r">Toys</span>
+                      </span>
+                    </button>
+                    <button
+                      class="g_a r_a r_aw r_l r_b bm_c"
+                      type="button"
+                      data-catid="2636"
+                      role="menuitem"
+                    >
+                      <span class="g_b">
+                        <span class="b_a bm_c b_r">Video Games</span>
+                      </span>
+                    </button>
+                  </div>
                 </div>
               </div>
-            </div>
+            )}
             <input
               type="hidden"
               name="cat_id"
