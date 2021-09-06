@@ -113,9 +113,9 @@ export default function footer() {
                       data-tl-id="hf-footer-links-1-link-4"
                       data-uid="vqP3w0nI"
                       href="https://marketplace.walmart.com/"
-                      data-section-title="Footer - Sell on Walmart.com"
+                      data-section-title="Footer - Sell on Swap.com"
                     >
-                      Sell on Walmart.com
+                      Sell on Swap.com
                     </a>
                   </span>
                 </li>
@@ -353,7 +353,7 @@ export default function footer() {
                 data-uid="3TKJYISO"
                 href="/cp/services/6163033"
               >
-                <span class="z_a z_i z_b">Walmart Services</span>
+                <span class="z_a z_i z_b">Swap Services</span>
               </a>
             </li>
             <li class="r_a r_n">

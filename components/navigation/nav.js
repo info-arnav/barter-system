@@ -54,9 +54,9 @@ export default () => {
             <a
               class="r_a r_ao r_v r_af ac_c"
               href="/"
-              title="Walmart Homepage"
+              title="Swap Homepage"
               id="hf-home-link"
-              aria-label="Walmart Homepage"
+              aria-label="Swap Homepage"
               role="link"
               data-uid="header-walmart-logo-link"
               data-index="LHN open/close spark click"
@@ -389,14 +389,14 @@ export default () => {
               type="text"
               class="k_a bo_b header-GlobalSearch-input mweb-Typeahead-input k_b"
               aria-autocomplete="both"
-              aria-label="Search Walmart.com"
+              aria-label="Search Swap.com"
               aria-controls="global-search-dropdown"
               autocapitalize="none"
               autocomplete="off"
               autocorrect="off"
               id="global-search-input"
               name="query"
-              placeholder="Search barter system"
+              placeholder="Search Swap"
             />
             <button
               class="g_a bo_c mweb-Typeahead-clear g_c"
@@ -633,7 +633,7 @@ export default () => {
                   <a
                     class="g_a s_a g_c l_a"
                     href="/"
-                    title="Walmart Homepage"
+                    title="Swap Homepage"
                     id="hf-spark-menu-logo"
                   >
                     <span class="g_b">
@@ -671,7 +671,7 @@ export default () => {
                 class="r_a r_aq r_x r_ah r_az r_o r_f b4_a"
                 id="vh-spark-main-menu"
               >
-                <div class="r_a b4_h">Walmart.com</div>
+                <div class="r_a b4_h">Swap.com</div>
                 <div class="r_a r_o b4_b">
                   <div
                     data-tl-id="header-top-links"
@@ -756,7 +756,7 @@ export default () => {
                       data-tl-id="header-GlobalHeaderSparkMenu-optionalTopLinks-3"
                       data-uid="LHN-3-OTL"
                       href="http://walmart.com/plus"
-                      title="Walmart+"
+                      title="Swap+"
                       data-section-title="Header"
                     >
                       <div aria-hidden="true" class="b_a r_a r_ax r_m r_c b_g">
@@ -768,12 +768,12 @@ export default () => {
                           xmlns="http://www.w3.org/2000/svg"
                           xlinkHref="http://www.w3.org/1999/xlink"
                         >
-                          <title>Walmart+</title>
+                          <title>Swap+</title>
                           <path d="M16.054398,17.3473684 C16.37138,17.3473684 16.6492783,17.5081706 16.6673376,17.7240974 L16.6673376,17.7240974 L16.9810851,21.2582505 C17.0101957,21.6070138 16.5716501,21.8947368 16.0554762,21.8947368 C15.540111,21.8947368 15.1080343,21.5916865 15.1306759,21.2582505 L15.1306759,21.2582505 L15.4436147,17.7240974 C15.4632913,17.5135486 15.7393029,17.3487129 16.054398,17.3473684 Z M19.8716337,15.0990949 C20.0299159,14.8232721 20.3016784,14.6809032 20.5020798,14.7573555 L20.5020798,14.7573555 L23.7109164,16.2593877 C24.0237249,16.4122924 24.0572593,16.9353021 23.801325,17.3832102 C23.5435128,17.8300378 23.0820799,18.0631769 22.7907333,17.866508 L22.7907333,17.866508 L19.8930957,15.8217452 C19.7278383,15.6826181 19.7152294,15.3738371 19.8716337,15.0990949 Z M4.40907506,8.88421053 C4.57153239,9.70489216 5.03458925,12.0865775 5.03458925,12.0865775 C5.22857613,13.0658424 5.40759984,14.0926289 5.54226843,14.9045003 L5.56578199,14.9045003 C5.69724418,14.0424375 5.90378944,13.2254935 6.12449629,12.2136577 L6.90365023,8.88421053 L8.62762185,8.88421053 L9.35627507,12.2996237 C9.54758996,13.2500553 9.69962652,13.9818342 9.81933193,14.8657889 L9.84284549,14.8657889 C9.97457488,13.973291 10.1450482,13.2110769 10.3331567,12.2355497 L11.0329524,8.88421053 L12.6877193,8.88421053 L10.6380314,16.6358342 C9.33249431,16.9217646 8.83229672,16.3966244 8.65247141,15.563128 C8.4731805,14.7296316 8.12314906,13.1421973 8.12314906,13.1421973 C7.94359095,12.2731932 7.80357838,11.6599512 7.70498174,10.7679872 L7.68013218,10.7679872 C7.5401196,11.651408 7.39369424,12.2705234 7.17592659,13.1389936 L6.31554398,16.6358342 C4.98275253,16.9009405 4.52049728,16.5079531 4.26371849,15.4395185 C4.04408044,14.5240607 2.66666667,8.88421053 2.66666667,8.88421053 L4.40907506,8.88421053 Z M16.034687,9.89473684 C16.4361839,9.89473684 16.7535347,10.1707027 16.7628842,10.4541998 L16.7628842,10.4541998 L16.8283312,12.1715898 L18.5331568,12.2358742 C18.8133765,12.2460952 19.0877193,12.5642897 19.0877193,12.9677486 C19.0877193,13.3722834 18.8133765,13.6915538 18.5318211,13.7009679 L18.5318211,13.7009679 L16.8235228,13.7647144 L16.76235,15.4837182 C16.752199,15.7658704 16.436451,16.0421053 16.0354884,16.0421053 C15.6339916,16.0421053 15.3166408,15.7658704 15.3072912,15.4823733 L15.3072912,15.4823733 L15.2426457,13.7644454 L13.5370187,13.7006989 C13.2565318,13.690478 12.9824561,13.3722834 12.9824561,12.9685555 C12.9824561,12.5642897 13.2565318,12.2450193 13.5380872,12.2356052 L13.5380872,12.2356052 L15.2477211,12.1670172 L15.3075583,10.452855 C15.3179764,10.1707027 15.6337244,9.89473684 16.034687,9.89473684 Z M22.7069313,7.94399721 C22.9990984,7.74779418 23.458371,7.97930298 23.7157244,8.42615 C23.9701319,8.87299702 23.9441556,9.39153362 23.6254766,9.54623216 L23.6254766,9.54623216 L20.4223512,11.0471315 C20.2338218,11.1403818 19.9499565,10.9789455 19.7930272,10.7048542 C19.6358301,10.4296848 19.6344911,10.1159756 19.814451,9.98607193 L19.814451,9.98607193 Z M16.055814,4 C16.57169,4 17.0121377,4.28962246 16.9808888,4.63652401 L16.6673224,8.17088612 C16.6549306,8.39489309 16.3715355,8.54736842 16.0547364,8.54736842 C15.7398231,8.54736842 15.4631626,8.3782203 15.4443056,8.17088612 L15.1315473,4.63652401 C15.0986821,4.27940365 15.5407461,4 16.055814,4 Z"></path>
                         </svg>
                         <div class="r_a r_ag"></div>
                         <span class="l_a l_c">
-                          <div class="z_a z_i">Walmart+</div>
+                          <div class="z_a z_i">Swap+</div>
                         </span>
                       </div>
                     </a>
@@ -783,7 +783,7 @@ export default () => {
                       data-tl-id="header-GlobalHeaderSparkMenu-optionalTopLinks-4"
                       data-uid="LHN-4-OTL"
                       href="https://www.walmart.com/cp/walmart-credit-card/632402"
-                      title="Walmart Credit Card"
+                      title="Swap Credit Card"
                       data-section-title="Header"
                     >
                       <div aria-hidden="true" class="b_a r_a r_ax r_m r_c b_g">
@@ -796,7 +796,7 @@ export default () => {
                         />
                         <div class="r_a r_ag"></div>
                         <span class="l_a l_c">
-                          <div class="z_a z_i">Walmart Credit Card</div>
+                          <div class="z_a z_i">Swap Credit Card</div>
                         </span>
                       </div>
                     </a>
@@ -1567,7 +1567,7 @@ export default () => {
                     data-tl-id="header-GlobalHeaderSparkMenu-optionalBottomLinks-2"
                     data-uid="LHN-2-OBL"
                     href="https://www.walmart.com/cp/services/6163033"
-                    title="Walmart Services"
+                    title="Swap Services"
                     data-section-title="Header"
                   >
                     {" "}
@@ -1583,7 +1583,7 @@ export default () => {
                       <div class="r_a r_ag"></div>{" "}
                       <span class="l_a l_c">
                         {" "}
-                        <div class="z_a z_i">Walmart Services</div>{" "}
+                        <div class="z_a z_i">Swap Services</div>{" "}
                       </span>{" "}
                     </div>{" "}
                   </a>{" "}
@@ -1619,7 +1619,7 @@ export default () => {
                     data-tl-id="header-GlobalHeaderSparkMenu-optionalBottomLinks-4"
                     data-uid="LHN-4-OBL"
                     href="https://www.walmart.com/cp/walmart-credit-card/632402"
-                    title="Walmart Credit Card"
+                    title="Swap Credit Card"
                     data-section-title="Header"
                   >
                     {" "}
@@ -1635,7 +1635,7 @@ export default () => {
                       <div class="r_a r_ag"></div>{" "}
                       <span class="l_a l_c">
                         {" "}
-                        <div class="z_a z_i">Walmart Credit Card</div>{" "}
+                        <div class="z_a z_i">Swap Credit Card</div>{" "}
                       </span>{" "}
                     </div>{" "}
                   </a>{" "}
@@ -4792,7 +4792,7 @@ export default () => {
                           {" "}
                           <span class="b_a ag_a b_g b_t">
                             {" "}
-                            Walmart Pet Care{" "}
+                            Swap Pet Care{" "}
                             <img
                               alt="null"
                               aria-hidden="true"
@@ -5140,12 +5140,10 @@ export default () => {
                         data-index="0"
                         data-uid="LHN-13-DEPT-1"
                         href="https://www.walmart.com/browse/beauty/exclusives/1085666_7192911_5349205?povid=BeautyGlobalNav_Exclusives"
-                        data-section-title="Walmart Exclusives"
+                        data-section-title="Swap Exclusives"
                       >
                         {" "}
-                        <div class="r_a r_ax r_m r_c">
-                          Walmart Exclusives
-                        </div>{" "}
+                        <div class="r_a r_ax r_m r_c">Swap Exclusives</div>{" "}
                       </a>{" "}
                       <a
                         class="l_a ag_a"
@@ -8942,7 +8940,7 @@ export default () => {
                             {" "}
                             <div class="r_a r_ax r_m r_c">
                               {" "}
-                              Walmart for Business{" "}
+                              Swap for Business{" "}
                             </div>{" "}
                           </a>{" "}
                         </li>{" "}
@@ -15492,7 +15490,7 @@ export default () => {
                             {" "}
                             <div class="r_a r_ax r_m r_c">
                               {" "}
-                              Walmart Favorite Reads{" "}
+                              Swap Favorite Reads{" "}
                             </div>{" "}
                           </a>{" "}
                         </li>{" "}
@@ -16410,12 +16408,12 @@ export default () => {
                             data-dept-nav-lvl="3"
                             data-index="7"
                             data-uid="LHN-9-DEPT-6-CAT-8"
-                            href="https://www.walmart.com/cp/walmart-baby-exclusives/3437789?povid=BabyGlobalNav_WalmartExclusives"
+                            href="https://www.walmart.com/cp/walmart-baby-exclusives/3437789?povid=BabyGlobalNav_SwapExclusives"
                             data-section-title="Trending in Baby"
                           >
                             {" "}
                             <div class="r_a r_ax r_m r_c">
-                              Walmart Exclusives
+                              Swap Exclusives
                             </div>{" "}
                           </a>{" "}
                         </li>{" "}
@@ -20743,7 +20741,7 @@ export default () => {
                     </section>{" "}
                     <section
                       class="dept-EYleajx6-children"
-                      data-parent-dept-name="Walmart Pet Care "
+                      data-parent-dept-name="Swap Pet Care "
                       data-parent-dept-uid="LHN-11-DEPT-8"
                       data-sub-depts-nav-id="dept-EYleajx6-children"
                       hidden="true"
@@ -20781,7 +20779,7 @@ export default () => {
                       </div>{" "}
                       <h3 class="r_a r_ax r_m r_c" tabindex="0">
                         {" "}
-                        Walmart Pet Care{" "}
+                        Swap Pet Care{" "}
                       </h3>{" "}
                       <ul class="m_a b_a b_f">
                         {" "}
@@ -20794,7 +20792,7 @@ export default () => {
                             data-index="0"
                             data-uid="LHN-11-DEPT-9-CAT-1"
                             href="https://www.walmartpetrx.com/?&amp;utm_medium=referral&amp;utm_source=walmart.com&amp;utm_campaign=departmentflyout"
-                            data-section-title="Walmart Pet Care "
+                            data-section-title="Swap Pet Care "
                           >
                             {" "}
                             <div class="r_a r_ax r_m r_c">Pet Rx</div>{" "}
@@ -20809,7 +20807,7 @@ export default () => {
                             data-index="1"
                             data-uid="LHN-11-DEPT-9-CAT-2"
                             href="https://www.walmartpetinsurance.com/?&amp;utm_medium=referral&amp;utm_source=walmart.com&amp;utm_campaign=departmentflyout"
-                            data-section-title="Walmart Pet Care "
+                            data-section-title="Swap Pet Care "
                           >
                             {" "}
                             <div class="r_a r_ax r_m r_c">
@@ -20826,7 +20824,7 @@ export default () => {
                             data-index="2"
                             data-uid="LHN-11-DEPT-9-CAT-3"
                             href="https://get.rover.com/walmart?UTM_Campaign=259296466&amp;UTM_Medium=bdwalmart&amp;UTM_Source=walmart"
-                            data-section-title="Walmart Pet Care "
+                            data-section-title="Swap Pet Care "
                           >
                             {" "}
                             <div class="r_a r_ax r_m r_c">
@@ -22137,7 +22135,7 @@ export default () => {
                     </section>{" "}
                     <section
                       class="dept-Ag3sgNgm-children"
-                      data-parent-dept-name="Walmart Exclusives"
+                      data-parent-dept-name="Swap Exclusives"
                       data-parent-dept-uid="LHN-13-DEPT-0"
                       data-sub-depts-nav-id="dept-Ag3sgNgm-children"
                       hidden="true"
@@ -22174,7 +22172,7 @@ export default () => {
                       </div>{" "}
                       <h3 class="r_a r_ax r_m r_c" tabindex="0">
                         {" "}
-                        Walmart Exclusives{" "}
+                        Swap Exclusives{" "}
                       </h3>{" "}
                       <ul class="m_a b_a b_f"></ul>{" "}
                     </section>{" "}
