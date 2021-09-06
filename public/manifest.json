@@ -5,7 +5,7 @@
     {
       "src": "/logo.png",
       "type": "image/png",
-      "sizes": "500x500",
+      "sizes": "542x376",
       "purpose": "maskable"
     }
   ],
@@ -20,7 +20,7 @@
       "short_name": "Add Items",
       "description": "Put your item for exchange here.",
       "url": "/dashboard",
-      "icons": [{ "src": "/logo.png", "sizes": "500x500" }]
+      "icons": [{ "src": "/logo.png", "sizes": "542x376" }]
     }
   ],
   "description": "Exchange your items anytime, wnywhere"

@@ -642,7 +642,7 @@ export default () => {
                         aria-hidden="true"
                         width="32"
                         height="32"
-                        src="//i5.walmartimages.com/dfw/63fd9f59-43e0/1ed7036a-feba-43ca-8885-1d937a9aa4f2/v1/spark-yellow-spark.b43cc07989a08d84d33b0c87dd8afb1998431e48.svg"
+                        src="/transparent.png"
                       />
                     </span>
                   </a>
