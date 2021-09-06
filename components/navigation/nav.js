@@ -549,10 +549,9 @@ export default () => {
             <div class="modal-dialog modal-lg">
               <div class="modal-content">
                 <div class="modal-header">
-                  <div
-                    class="modal-title h4"
-                    id="example-modal-sizes-title-lg"
-                  ></div>
+                  <div class="modal-title h4" id="example-modal-sizes-title-lg">
+                    Login
+                  </div>
                   <button
                     type="button"
                     class="btn-close"
@@ -588,10 +587,9 @@ export default () => {
             <div class="modal-dialog modal-lg">
               <div class="modal-content">
                 <div class="modal-header">
-                  <div
-                    class="modal-title h4"
-                    id="example-modal-sizes-title-lg"
-                  ></div>
+                  <div class="modal-title h4" id="example-modal-sizes-title-lg">
+                    Register
+                  </div>
                   <button
                     type="button"
                     class="btn-close"
