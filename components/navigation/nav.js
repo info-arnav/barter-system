@@ -87,6 +87,9 @@ export default () => {
             <button
               class="g_a bo_f"
               type="button"
+              onClick={() => {
+                setShow2(!show2);
+              }}
               aria-controls="searchDropdown-list"
               aria-haspopup="true"
               aria-label="Search Category All Departments"
@@ -100,9 +103,6 @@ export default () => {
                 ></span>
 
                 <img
-                  onClick={() => {
-                    setShow2(!show2);
-                  }}
                   alt="null"
                   aria-hidden="true"
                   width="18"
