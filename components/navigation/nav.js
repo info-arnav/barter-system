@@ -714,7 +714,7 @@ export default () => {
                         />
                         <div class="r_a r_ag"></div>
                         <span class="l_a l_c">
-                          <div class="z_a z_i">Track Orders</div>
+                          <div class="z_a z_i">Buy/Sell</div>
                         </span>
                       </div>
                     </a>
@@ -733,11 +733,11 @@ export default () => {
                           aria-hidden="true"
                           width="24"
                           height="24"
-                          src="//i5.walmartimages.com/dfw/63fd9f59-392b/48a699e6-5299-4b55-8895-28b7af730df3/v1/easyreorder-black.a9c7e2d9a0d04013144b768123ff9559a18d1d06.svg"
+                          src="/exchange.png"
                         />
                         <div class="r_a r_ag"></div>
                         <span class="l_a l_c">
-                          <div class="z_a z_i">Buy Again</div>
+                          <div class="z_a z_i">Exchange</div>
                         </span>
                       </div>
                     </a>
@@ -754,7 +754,7 @@ export default () => {
                         <img src="logo.png" width="24px" height="24px" />
                         <div class="r_a r_ag"></div>
                         <span class="l_a l_c">
-                          <div class="z_a z_i">Lists</div>
+                          <div class="z_a z_i">Donate</div>
                         </span>
                       </div>
                     </a>
@@ -771,7 +771,7 @@ export default () => {
                         <img src="logo.png" width="24px" height="24px" />
                         <div class="r_a r_ag"></div>
                         <span class="l_a l_c">
-                          <div class="z_a z_i">Swap+</div>
+                          <div class="z_a z_i">Contact us</div>
                         </span>
                       </div>
                     </a>
@@ -794,7 +794,7 @@ export default () => {
                         />
                         <div class="r_a r_ag"></div>
                         <span class="l_a l_c">
-                          <div class="z_a z_i">Swap Credit Card</div>
+                          <div class="z_a z_i">Swap Store Credit</div>
                         </span>
                       </div>
                     </a>
