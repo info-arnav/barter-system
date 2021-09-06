@@ -18,7 +18,7 @@ export default function footer() {
                   type="email"
                   class="k_a a_a bk_b"
                   id="hf-email-input"
-                  placeholder="Enter email for weekly newsletter."
+                  placeholder="Enter Email To Connect"
                 />
               </div>
             </div>
@@ -28,7 +28,7 @@ export default function footer() {
               aria-label="Signup for newsletter"
               id="hf-email-signup-btn"
             >
-              <span class="g_b">Send Mail</span>
+              <span class="g_b">Share</span>
             </button>
           </form>
         </div>
